@@ -11,10 +11,15 @@
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
+# 替换更新adguardhome
+# rm -rf package/diy/luci-app-adguardhome && git clone https://github.com/limi00/luci-app-adguardhome.git package/diy/luci-app-adguardhome
+
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # sed -i '$a src-git project https://github.com/project-openwrt/openwrt' feeds.conf.default
 # sed -i '$a src-git openwrt https://github.com/openwrt/packages' feeds.conf.default
+# sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+# sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # # Define My Package
 git clone https://github.com/limi00/luci-app-adguardhome.git package/diy/luci-app-adguardhome
