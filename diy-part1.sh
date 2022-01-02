@@ -26,7 +26,6 @@ sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf
 
 # # Define My Package
 # git clone https://github.com/limi00/luci-app-adguardhome.git package/diy/luci-app-adguardhome
-git clone svn co https://github.com/rufengsuixing/luci-app-usb3disable.git package/diy/luci-app-usb3disable
 # git clone https://github.com/xiaorouji/openwrt-passwall.git package/diy/luci-app-passwall
 # git clone https://github.com/tty228/luci-app-serverchan.git package/mine/luci-app-serverchan
 
