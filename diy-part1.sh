@@ -19,8 +19,6 @@ rm -rf package/diy/luci-app-adguardhome && git clone https://github.com/limi00/l
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # sed -i '$a src-git project https://github.com/project-openwrt/openwrt' feeds.conf.default
 # sed -i '$a src-git openwrt https://github.com/openwrt/packages' feeds.conf.default
-# sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-# sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 sed -i 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
 sed -i 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
