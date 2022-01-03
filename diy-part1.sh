@@ -16,7 +16,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # rm -rf package/diy/luci-app-adguardhome && git clone https://github.com/limi00/luci-app-adguardhome.git package/diy/luci-app-adguardhome
 
 # Add a feed source
-sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+# sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # sed -i'$a src-git project https://github.com/project-openwrt/openwrt' feeds.conf.default
 # sed -i'$a src-git openwrt https://github.com/openwrt/packages' feeds.conf.default
 # echo ' src-git small8 https://github.com/kenzok8/small-package' >> feeds.conf.default
