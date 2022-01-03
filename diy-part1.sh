@@ -25,6 +25,8 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
 echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
+echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
+echo "src-git mk01 https://github.com/immortalwrt/packages.git >> "feeds.conf.default"
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >> feeds.conf.default
 
 # # Define My Package
