@@ -30,19 +30,19 @@
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >> feeds.conf.default
 
 # # Define My Package
-# git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
-# git clone https://github.com/xiaorouji/openwrt-passwall.git package/diy/luci-app-passwall
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/diy/luci-app-passwall
 # git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 # git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
-# git clone https://github.com/rufengsuixing/luci-app-usb3disable.git package/diy/luci-app-usb3disable
-# git clone https://github.com/sirpdboy/netspeedtest.git package/diy/luci-app-netspeedtest
-# git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/diy/luci-app-autotimeset
+git clone https://github.com/rufengsuixing/luci-app-usb3disable.git package/diy/luci-app-usb3disable
+git clone https://github.com/sirpdboy/netspeedtest.git package/diy/luci-app-netspeedtest
+git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/diy/luci-app-autotimeset
 # git clone https://github.com/zzsj0928/luci-app-pushbot package/diy/luci-app-pushbot
 # git clone https://github.com/linkease/istore.git package/diy/luci-app-store
 # git clone https://github.com/tty228/luci-app-serverchan.git package/mine/luci-app-serverchan
 
 #appstore
-# svn co https://github.com/cloudysky9/openwrt-packages/trunk/app-store-ui package/app-store-ui
-# svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-store package/luci-app-store
+svn co https://github.com/cloudysky9/openwrt-packages/trunk/app-store-ui package/app-store-ui
+svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-store package/luci-app-store
 
 rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
