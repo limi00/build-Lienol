@@ -20,8 +20,8 @@
 # sed -i'$a src-git openwrt https://github.com/openwrt/packages' feeds.conf.default
 # echo ' src-git small8 https://github.com/kenzok8/small-package' >> feeds.conf.default
 # echo ' src-git small https://github.com/kenzok8/small' >> feeds.conf.default
-# sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-# sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
 # echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
 # echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> feeds.conf.default
@@ -42,7 +42,7 @@
 # git clone https://github.com/tty228/luci-app-serverchan.git package/mine/luci-app-serverchan
 
 #appstore
-svn co https://github.com/cloudysky9/openwrt-packages/trunk/app-store-ui package/app-store-ui
-svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-store package/luci-app-store
+# svn co https://github.com/cloudysky9/openwrt-packages/trunk/app-store-ui package/app-store-ui
+# svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-store package/luci-app-store
 
 rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
