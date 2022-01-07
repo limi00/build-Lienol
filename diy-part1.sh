@@ -40,5 +40,6 @@ git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/diy/luci-
 #appstore
 # svn co https://github.com/cloudysky9/openwrt-packages/trunk/app-store-ui package/app-store-ui
 # svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-store package/luci-app-store
+svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-usb3disable package/luci-app-usb3disable
 
 rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
