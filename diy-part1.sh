@@ -19,6 +19,8 @@
 
 # Add a feed source
 # sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # sed -i'$a src-git project https://github.com/project-openwrt/openwrt' feeds.conf.default
 # sed -i'$a src-git openwrt https://github.com/openwrt/packages' feeds.conf.default
@@ -28,11 +30,11 @@
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # # Define My Package
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
-git clone https://github.com/xiaorouji/openwrt-passwall2.git package/diy/luci-app-passwall2
+# git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
+# git clone https://github.com/xiaorouji/openwrt-passwall2.git package/diy/luci-app-passwall2
 # git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 # git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
-git clone https://github.com/rufengsuixing/luci-app-usb3disable.git package/diy/luci-app-usb3disable
+# git clone https://github.com/rufengsuixing/luci-app-usb3disable.git package/diy/luci-app-usb3disable
 # git clone https://github.com/sirpdboy/netspeedtest.git package/diy/luci-app-netspeedtest
 # git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/diy/luci-app-autotimeset
 # git clone https://github.com/zzsj0928/luci-app-pushbot package/diy/luci-app-pushbot
