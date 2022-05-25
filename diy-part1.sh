@@ -18,9 +18,15 @@
 # rm -rf package/diy/luci-app-adguardhome && git clone https://github.com/limi00/luci-app-adguardhome.git package/diy/luci-app-adguardhome
 
 # Add a feed source
-# sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
+# kenzok8仓库
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+# kenzok8的需要安装依赖
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+# liuran001仓库
+sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
+# sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
+# sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+# sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # sed -i'$a src-git project https://github.com/project-openwrt/openwrt' feeds.conf.default
 # sed -i'$a src-git openwrt https://github.com/openwrt/packages' feeds.conf.default
