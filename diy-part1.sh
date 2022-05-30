@@ -49,4 +49,4 @@ git clone https://github.com/rufengsuixing/luci-app-usb3disable.git package/diy/
 # git clone https://github.com/linkease/istore.git package/diy/luci-app-store
 # git clone https://github.com/tty228/luci-app-serverchan.git package/mine/luci-app-serverchan
 
-rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
+# rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
