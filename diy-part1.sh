@@ -50,4 +50,4 @@ git clone https://github.com/Ausaci/luci-app-nat6-helper.git package/diy/luci-ap
 # git clone https://github.com/linkease/istore.git package/diy/luci-app-store
 # git clone https://github.com/tty228/luci-app-serverchan.git package/mine/luci-app-serverchan
 
-# rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
+rm -rf ./package/lean/luci-theme-argonne && git clone -b 21.02 https://github.com/kenzok78/luci-theme-argonne package/lean/luci-theme-argon  #新的argon主题
