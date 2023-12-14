@@ -16,15 +16,15 @@
 
 # 克隆源码
 # adguardhome
-git clone -b main --depth 1 https://github.com/XiaoBinin/luci-app-adguardhome.git
+# git clone -b main --depth 1 https://github.com/XiaoBinin/luci-app-adguardhome.git
 # passwall2
-git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
+# git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
 # mosdns
-git clone -b v5 --depth 1 https://github.com/sbwml/luci-app-mosdns.git
+# git clone -b v5 --depth 1 https://github.com/sbwml/luci-app-mosdns.git
 # v2ray-geodata
-git clone https://github.com/sbwml/v2ray-geodata
+# git clone https://github.com/sbwml/v2ray-geodata
 # lucky
-git clone -b main --depth 1 https://github.com/sirpdboy/luci-app-lucky.git
+# git clone -b main --depth 1 https://github.com/sirpdboy/luci-app-lucky.git
 
 # Add a feed source
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
