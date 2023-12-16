@@ -28,10 +28,10 @@
 
 # Add a feed source
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+# sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+# sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # sed -i '$a src-git opentopd  https://github.com/sirpdboy/sirpdboy-package' feeds.conf.default
-#sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' >>feeds.conf.default
+sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' >>feeds.conf.default
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 # sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
