@@ -1,4 +1,4 @@
-name: Build
+name: 开始工作
 
 on:
   repository_dispatch:
@@ -18,7 +18,7 @@ env:
   DEVICE: xiaomi_mi-router-3g
   UPLOAD_OUTPUT: true
 
-jobs: 开始工作
+jobs:
    xiaomi_mi-router-3g:
     runs-on: ubuntu-20.04
     permissions:
