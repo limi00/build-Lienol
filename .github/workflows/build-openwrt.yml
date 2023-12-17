@@ -18,7 +18,7 @@ env:
   DEVICE: xiaomi_mi-router-3g
   UPLOAD_OUTPUT: true
 
-jobs:
+jobs: 开始工作
    xiaomi_mi-router-3g:
     runs-on: ubuntu-20.04
     permissions:
