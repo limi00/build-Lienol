@@ -45,7 +45,7 @@ jobs:
       
     - name: 克隆源码
       run: |
-        git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
+        git clone -b $REPO_BRANCH --single-branch --depth=1 $REPO_URL openwrt
 
 
     - name: 配置 Feeds
