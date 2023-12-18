@@ -9,12 +9,6 @@ on:
         required: false
         default: 'false'
         
-env:
-  DEVICE: xiaomi_mi-router-3g
-  UPLOAD_OUTPUT: true
-  TZ: Asia/Shanghai
-  
-
 jobs:
    merge:
     runs-on: ubuntu-20.04
