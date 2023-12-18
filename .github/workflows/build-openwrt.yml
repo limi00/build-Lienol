@@ -10,9 +10,10 @@ on:
         default: 'false'
         
 env:
-  TZ: Asia/Shanghai
   DEVICE: xiaomi_mi-router-3g
   UPLOAD_OUTPUT: true
+  TZ: Asia/Shanghai
+  
 
 jobs:
    merge:
