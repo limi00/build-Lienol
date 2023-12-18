@@ -71,13 +71,13 @@ jobs:
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
 
-    - name: Multi-thread compile
+    - name: 多线程编译
       run: |
           cd openwrt
           echo -e "$(nproc) thread build."
           make -j$(nproc) V=s
 
-    - name: Single-thread compile
+    - name: 单线程编译
       if: failure()
       run: |
           cd openwrt
