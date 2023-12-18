@@ -11,7 +11,7 @@ on:
         
 env:
   REPO_URL: https://github.com/Lienol/openwrt.git
-  REPO_BRANCH: master
+  REPO_BRANCH: 22.03
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   TZ: Asia/Shanghai
