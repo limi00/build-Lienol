@@ -1,4 +1,4 @@
-name: Build
+name: Lienol
 
 on:
   repository_dispatch:
