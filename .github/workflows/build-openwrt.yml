@@ -63,9 +63,9 @@ jobs:
         echo "src-git small https://github.com/kenzok8/small" >> ./feeds.conf.default 
         ./scripts/feeds update -a
         ./scripts/feeds install -a
-        rm -rf feeds/luci/applications/luci-app-alist
-        rm -rf package/feeds/luci/luci-app-alist
-        git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
+        #rm -rf feeds/luci/applications/luci-app-alist
+        #rm -rf package/feeds/luci/luci-app-alist
+        #git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
         find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
         find ./ | grep Makefile | grep mosdns | xargs rm -f
         git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
