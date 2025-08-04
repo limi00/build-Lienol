@@ -20,13 +20,13 @@ env:
 
 jobs:
    xiaomi_mi-router-3g:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     permissions:
       contents: write
 
     steps:
     - name: 配置
-      uses: actions/checkout@master
+      uses: actions/checkout@main
     
     - name: 配置环境
       env:
